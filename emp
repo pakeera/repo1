@@ -1,0 +1,14 @@
+create table employees 
+(
+emp_id number,
+emp_name varchar(30),
+emp_age number,
+phone_no number
+);
+
+insert into employees (001,'john',22,9865321245);
+insert into employees (002,'kristof',35,32657812);
+insert into employees (003,'kevin',23,2121232526);
+insert into employees (205,'levin',26,6365264958);
+insert into employees (301,'alyan',3,3036351595);
+select * from employees;
